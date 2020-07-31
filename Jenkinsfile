@@ -3,6 +3,6 @@ node{
     git 'https://github.com/rohangogoi/pubtest'
   }
   stage('Build') {
-    sh echo "Hello"
+    echo "Hello"
   }
 }
